@@ -1,0 +1,320 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title></title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/iconsFont.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=0" " />
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel=" stylesheet"
+		href="./style.css">
+	<!-- Кодировка страницы -->
+	<script src="https://kit.fontawesome.com/745a49bc04.js" crossorigin="anonymous"></script>
+	<meta http-equiv=" Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<section class="header header__none">
+				<div class="container">
+					<div class="header__row">
+						<div class="header__nav">
+							<nav class="header__menu">
+								<div class="item__border menu__border">
+									<div class="menu__icon icon-menu">
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+								<div class="menu__body">
+									<ul class="menu__list">
+										<li><a href="index.html" class="menu__link">Home Page</a></li>
+										<li><a href="SecondHome.html" class="menu__link">Second Home Page</a></li>
+										<li><a href="DetailPage.html" class="menu__link">Detail's Page's</a></li>
+										<li><a href="AboutMe.html" class="menu__link">About Me</a></li>
+									</ul>
+								</div>
+							</nav>
+							<div class="header__logo">
+								<a href="index.html" class="link__logo">
+									<img src="img/Logo.png" alt="" class="">
+									<p>blog</p>
+								</a>
+							</div>
+							<div class="header__spoilers">
+								<div class="item__border spoilers__border">
+									<div class="spoilers"></div>
+								</div>
+							</div>
+							<div class="header__item">
+								<div class="item__border">
+									<a href="#" class="item">
+										<p class="icon-rss"></p>
+									</a>
+								</div>
+								<div class="item__border">
+									<a href="#" class="item">
+										<p class="icon-twitter"></p>
+									</a>
+								</div>
+								<div class="item__border">
+									<a href="#" class="item ">
+										<p class="icon-tumblr"></p>
+									</a>
+								</div>
+								<div class="item__border">
+									<a href="#" class="item">
+										<p class="icon-facebook"></p>
+									</a>
+								</div>
+
+								<div class="item__border">
+									<div class="item search-btn">
+										<p class="icon-search"></p>
+									</div>
+								</div>
+								<div class="search-box">
+									<input type="text" placeholder="Search here!">
+									<div class="cancel-btn">
+										<i class="fa-sharp fa-solid fa-xmark"></i>
+									</div>
+									<div class="seatch-data"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content">
+				<div class="container">
+					<div class="content__body">
+						<div class="content__block">
+							<div class="content__item">
+								<div class="block__contact-information">
+									<div class="block__contact-information__map">
+										<iframe
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1677252200826!5m2!1sru!2sua"
+											width="434" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+											referrerpolicy="no-referrer-when-downgrade"></iframe>
+									</div>
+									<div class="block__contact-information__content">
+										<div class="contact-information__title">Contact information</div>
+										<div class="contact-information__text">
+											<p>
+												In case you some aquestions popped in your’s mind, FeIn case you some aquestions
+												popped in your’el email or even visit us.
+											</p>
+										</div>
+										<div class="contact-information__item">
+											<div class="information__item">
+												<p class="fa-solid fa-house-chimney"></p>
+												<p class="information__item__text">Address: 123 Street Name, City Name, United
+													States.</p>
+											</div>
+											<div class="information__item">
+												<p class="fa-regular fa-envelope"></p>
+												<p class="information__item__text">Email: info@lifestyle.com</p>
+											</div>
+											<div class="information__item">
+												<p class="fa-solid fa-satellite-dish"></p>
+												<p class="information__item__text">www.lifestyle.com</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sign-up__body block__sign-up__body">
+								<form action="#" id="form" class="sign-up__form block__sign-up__form">
+									<div class="sign-up__input block__sign-up">
+										<input id="formName" autocomplete="off" type="text" name="name" placeholder="Your Name"
+											class="block__sign-up__input input _req">
+										<input id="formEmail" autocomplete="off" type="text" name="email"
+											placeholder="Your Email Address" class="block__sign-up__input input _req _email">
+									</div>
+									<div class="sign-up__input block__sign-up">
+										<input id="formWebsite" autocomplete="off" type="url" name="Website"
+											placeholder="Website Address"
+											class="block__sign-up__input block__sign-up__input__solo input _req">
+									</div>
+									<div class="sign-up__input block__sign-up">
+										<textarea id="formMessage" autocomplete="off" type="text" name="message"
+											placeholder="Please write a message here!"
+											class="block__sign-up__input block__sign-up__input__solo block__sign-up__input__textarea _req"></textarea>
+									</div>
+									<div class="sign-up__button">
+										<button type="submit" class="sign-up__btn block__sign-up__button">send message</button>
+									</div>
+								</form>
+							</div>
+							<div class="sign-up__body block__sign-up__body">
+								<form action="#" id="form" class="sign-up__form block__sign-up__form">
+								</form>
+							</div>
+						</div>
+						<div class="content__side-panel">
+							<div class="side-panel">
+								<div class="side-panel__search">
+									<input class="panel__search-box" type="text" placeholder="Search">
+									<a href="#" class="panel__search-btn">
+										<p class="icon-search"></p>
+									</a>
+								</div>
+								<div class="side-panel__banner-mini">
+									<a href="#" class="panel__banner__link">
+										<img class="panel__banner__img banner-mini" src="img/banner__mini.jpg" alt="">
+									</a>
+								</div>
+								<div class="side-panel__latestPost">
+									<div class="panel__title-latestPost">
+										<p>Latest Post</p>
+									</div>
+									<a href="#" class="panel__line">
+										<div class="line__image">
+											<img src="img/jurney towards.jpg" alt="">
+										</div>
+										<div class="line__body">
+											<div class="line__text">jurney towards a lifestyle</div>
+											<div class="line__info">
+												<div class="line__date">Jan. 16 2015</div>
+												<div class="line__like">Like 255</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="panel__line">
+										<div class="line__image">
+											<img src="img/Fashionable shoes.jpg" alt="">
+										</div>
+										<div class="line__body">
+											<div class="line__text">Fashionable shoes for men</div>
+											<div class="line__info">
+												<div class="line__date">Jan. 18 2015</div>
+												<div class="line__like">Like 26</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="panel__line">
+										<div class="line__image">
+											<img src="img/really awesome’s.jpg" alt="">
+										</div>
+										<div class="line__body">
+											<div class="line__text">really awesome’s Adventure</div>
+											<div class="line__info">
+												<div class="line__date">Jan. 23 2015</div>
+												<div class="line__like">Like 23</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="panel__line">
+										<div class="line__image">
+											<img src="img/Man Hunting.jpg" alt="">
+										</div>
+										<div class="line__body">
+											<div class="line__text">Man Hunting in jungle</div>
+											<div class="line__info">
+												<div class="line__date">Jan. 16 2015</div>
+												<div class="line__like">Like 29</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="footer">
+			<div class="container footer__container">
+				<div class="footer__body">
+					<div class="footer__column">
+						<div class="footer__title">
+							About Blog
+						</div>
+						<div class="footer__text">
+							Lorem ipsum dolor sit amet, conser adipisicing esse cillum dolore nulla pariatur.
+						</div>
+						<div class="footer__image">
+							<img src="img/sign.jpg" alt="">
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">
+							latest tweets
+						</div>
+						<div class="footer__text">
+							<p class="icon-twitter twitter">@Twitter@magicalrebekah</p>
+							<p>Developer Advocate @heyval isaiyou knows the very well is about things.</p>
+						</div>
+						<div class="footer__text">
+							<p class="icon-twitter twitter">@Twitter@magicalrebekah</p>
+							<p>Developer Advocate hav a great work this knows the very well is about things.</p>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">
+							Follow me instagram
+						</div>
+						<div class="footer__instagram">
+							<div class="footer__instagram_item">
+								<a href="#"><img src="img/inst_link.jpg" alt=""></a>
+							</div>
+							<div class="footer__instagram_item">
+								<a href="#"><img src="img/inst_link.jpg" alt=""></a>
+							</div>
+							<div class="footer__instagram_item">
+								<a href="#"><img src="img/inst_link.jpg" alt=""></a>
+							</div>
+							<div class="footer__instagram_item">
+								<a href="#"><img src="img/inst_link.jpg" alt=""></a>
+							</div>
+							<div class="footer__instagram_item">
+								<a href="#"><img src="img/inst_link.jpg" alt=""></a>
+							</div>
+							<div class="footer__instagram_item">
+								<a href="#"><img src="img/inst_link.jpg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">
+							latest comment
+						</div>
+						<div class="footer__text">
+							<p class="twitter">From Alex :</p>
+							<p class="footer__border">Developer Advocate @heyval isaiyou know the very well is talking about
+								things.</p>
+						</div>
+						<div class="footer__text">
+							<p class="twitter">From John DIO :</p>
+							<p>Developer Advocate @heyval isaiyou know the very well is talking about
+								things.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__bottom__text">
+					<p>@2015 copyright .all right reserved by awesome theme i terms policy i disclaimer</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script src="https://kit.fontawesome.com/745a49bc04.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/player.js"></script>
+</body>
+
+
+</html>
